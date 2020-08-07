@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <title>gym</title>
+    <style>
+        body {
+            font-family: 'Baloo Bhai', cursive;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url(/home/parrot/Desktop/webdev/project/ims/back.jpg);
+        }
+
+        .left {
+
+            display: inline-block;
+            /* border: 2px solid white; */
+            left: 8px;
+            top: 5px;
+            position: absolute;
+        }
+
+        .mid {
+            /* position: absolute; */
+            width: 80%;
+            margin: 20px auto;
+            display: block;
+            /* border: 2px solid white; */
+            list-style-type: none;
+            padding: 1px;
+            /* position: fixed; */
+        }
+
+        .nav {
+            display: inline-block;
+        }
+
+        .nav li {
+            
+            margin: 25px;
+            display: inline;
+            font-size: 25px;
+        }
+
+        .nav li a {
+            text-decoration: none;
+            
+            color: whitesmoke;
+        }
+
+
+        
+
+        .left img {
+            width: 110px;
+            filter: grayscale()
+        }
+
+        .left div {
+            color: grey;
+            margin: 0px auto;
+
+        }
+
+        .container {
+            border: 2px solid grey;
+            border-radius: 20px;
+            margin: 120px 600px;
+            padding: 75px;
+            width: 33%;
+
+        }
+
+        .farm {
+            margin: 12px auto;
+
+        }
+
+        .farm input {
+            font-family: 'Baloo Bhai', cursive;
+            text-align: center;
+            display: block;
+            width: 450px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 25px;
+            border-radius: 8px;
+        }
+
+        .container button {
+
+            font-family: 'Baloo Bhai', cursive;
+            font-size: 50 px;
+            color: white;
+            display: block;
+            width: 74%;
+            cursor:pointer;
+            margin: 20px auto;
+            padding: 4px 4px;
+            border-radius: 8px;
+            text-align: center;
+            background-color: black;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        a:hover{
+            font-size: 35px;
+            color: #e7e7e7;          
+        }
+        .container button:hover{
+            font-size: 25px;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <header class="head">
+
+        <div class="left">
+            <img src="ims/logo.jpg" alt="">
+            <div>Health India GYM</div>
+        </div>
+
+        <div class="mid">
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Fitness Plans</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>welcome Buddy!!</h1>
+        <form action="#">
+            <div class="farm"><input type="text" placeholder="enter your Name "></div>
+            <div class="farm"><input type="text" placeholder="enter your Age "></div>
+            <div class="farm"><input type="text" placeholder="enter your gender "></div>
+            <div class="farm"><input type="text" placeholder="enter your phone no "></div>
+            <button class="btn">Submit</button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
